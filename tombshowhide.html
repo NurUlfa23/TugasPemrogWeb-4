@@ -1,0 +1,19 @@
+<html>
+<head>
+	<script src="jquery-3.6.0.min.js">// Memanggil library jquery</script> 
+	<script type="text/javascript"> 
+		$(document).ready (function(){ 
+		$(".sembunyi").click(function() {$("#foto").hide("slow") }); // Memberi perintah "sembunyi" pada foto secara pelan
+		$(".tampil").click(function() {$("#foto").hide("slow") }); // Memberi perintah "tampilkan" pada foto secara pelan
+		$(".sembunyi").click(function() {$("#foto2").hide("slow") }); // Memberi perintah "sembunyi" pada foto secara pelan
+		$(".tampil").click(function() {$("#foto2").hide("slow") }); // Memberi perintah "tampilkan" pada foto secara pelan
+	});
+	</script>
+</head>
+<body>
+      <button class="sembunyi">Sembunyikan</button> 
+      <button class="tampil">Tampilkan</button>
+      <p><img id="foto" src="logoukmr.jpg"/p></p>
+      <p><img id="foto2" src="server.jpg"/p></p>
+</body>
+</html>
